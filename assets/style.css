@@ -135,10 +135,16 @@ nav{
 
 .section-2__quote{
     background-color: #172339;
+    position: relative;
+    top: 350px;
 }
 
-.footer{
+footer{
     display: flex;   
+}
+
+footer ul li{
+ list-style: none;   
 }
 
 
