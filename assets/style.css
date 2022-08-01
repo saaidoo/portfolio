@@ -137,4 +137,8 @@ nav{
     background-color: #172339;
 }
 
+.footer{
+    display: flex;   
+}
+
 
