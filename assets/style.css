@@ -1,0 +1,136 @@
+
+body{
+    margin: 0 10%;
+    background-color: #faf8f6;
+}
+
+.btn{
+    background: none;
+    border: none;
+    border: 1px solid #172339;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #fafbf6;
+    color: #172339;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.nav-logo{
+    /* pull flex item left */
+    padding: 10px;
+}
+
+.nav-btn{
+    background-color: #fafbf6;
+    color: #172339;
+}
+
+.arc{
+    position: relative;
+    left: 250px;
+    width: 200px;
+    height: 30px;
+}
+
+.super-solution{
+    display: flex;
+    /* justify-content:  flex-start; */
+}
+
+.overlay-1{
+    float: left;
+    z-index: 2;
+}
+
+.overlay-2{
+    float:left;
+    position: relative;
+    left: 200px;
+    z-index: 1;
+}
+
+.overlay-3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 400px;
+    top: 20px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.overlay-3 ul li {
+    list-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    
+}
+
+.overlay-3 h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #172339;
+    list-style: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.overlay-3 p{
+    font-size: 15px;
+    color: #172339;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.super-solution h1{
+    font-size: 70px;
+    text-align: justify;
+    width: 100%;
+    font-weight: bolder;
+    color: #172339;
+}
+
+.super-solution  p{
+    padding: 25px 20px;
+    max-width: 350px;
+    font-size: 18px;
+    color: #49566D;
+    font-weight: 400;
+}
+
+.super-solution__btn{
+    background-color: #172339;
+    color: #fafbf6;
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+.super-solution__btn:hover{
+    background-image: linear-gradient(to bottom right,#A060FF,#CB30E3,#FFA84E);
+    border: 1px solid transparent;
+}
+
+.phone-image{
+    display: none;
+}
+
+.phone-image-xl{
+    display: block;
+    max-width: 280px;
+    min-width: 280px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+
