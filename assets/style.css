@@ -84,7 +84,7 @@ nav{
 }
 
 .text h1{
-    font-size: 4vw;
+    font-size: 1vw;
     font-weight: lighter;
     word-spacing: 5px;
     color: #172339;
@@ -96,7 +96,6 @@ nav{
     line-height: 25px;
     font-size: 18px;
     color: #49566d;
-
 }
 
 .text .request-beta-access--btn{
