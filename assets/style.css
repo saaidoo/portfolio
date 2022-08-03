@@ -9,6 +9,7 @@ body{
     /* margin: 0 10%; */
     background-color: #faf8f6;
     font-family: 'Epilogue', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Nav */
