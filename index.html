@@ -1,122 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./assets/style.css">
-  
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Suite landing page</title>
 </head>
+
 <body>
 
   <nav>
     <div class="nav-logo"><img src="./assets/logo.svg" /></div>
-    <button class="btn nav-btn" >Request Beta Access</button>
+    <button class="btn nav-btn">Request Beta Access</button>
   </nav>
 
-  <div class="super-solution">
-    <div><img class="arc" src="./assets/pattern-curved-line-1.svg" alt=""></div>
+  <section>
+    <div class="section-1-container">
 
-    <div class="overlay-1">
-    <h1>A super solution<br> for your business.</h1>
-    <p>
-      Our marketing and sales automations help you scale your outreach to 
-      get more leads for your company. 
-    </p>
-
-    <button class = "btn super-solution__btn">Request Beta Access</button>
-  </div>
-  <div class="overlay-2">
-    <img src="./assets/image-hero-portrait@2x.png" alt="" class="phone-image phone-image-xl">
-    <img src="./assets/image-hero-portrait.png" alt="" class="phone-image phone-image-l">
-     <img src="./assets/image-hero-landscape@2x.png" alt="" class="phone-image phone-image-m">
-    <img src="./assets/image-hero-landscape.png" alt="" class="phone-image phone-image-s">
-  </div>
-
-  <div class="overlay-3">
-      <ul>
-        <li>
-      <h3>2K+</h3>
-    <p>Companies</p>
-      </li>
+      <div class="section-1-1">
+          <div class="text">
+            <div class="arc"><img src="./assets/pattern-curved-line-1.svg" /></div>
+            <h1>A <span class="super-solution">super solution</span><br> for your <span class="super-solution">business.</span></h1>
+            <p>
+              Our marketing and sales automations help you scale your outreach to
+              get more leads for your company.
+            </p>
     
-    <li>
-      <h3>8</h3>
-    <p>Languages</p>
-    </li>
+            <button class="btn request-beta-access--btn">Request Beta Access</button>
+          </div>
 
-  
-    <li>
-      <h3>1.2M</h3>
-      <p>Leads</p>
-    </li>
+          <div class="image">
+            <img src="./assets/image-hero-portrait@2x.png" alt="" class="phone-image phone-image-xl">
+            <img src="./assets/image-hero-portrait.png" alt="" class="phone-image phone-image-l">
+            <img src="./assets/image-hero-landscape@2x.png" alt="" class="phone-image phone-image-m">
+            <img src="./assets/image-hero-landscape.png" alt="" class="phone-image phone-image-s">
+          </div>
 
-  </ul>
+      </div>
+
+      <div class="section-1-2">
+        <ul>
+          <li>
+            <p>
+              <h3>2K+</h3>
+              <p>Companies</p>
+            </p>
+          </li>
     
-  </div>
+          <li>
+            <h3>8</h3>
+            <p>Languages</p>
+          </li>
+    
+    
+          <li>
+            <h3>1.2M</h3>
+            <p>Leads</p>
+          </li>
+    
+        </ul>
+      </div>
 
-  </div>
-
-  <!-- Request Beta Access -->
-
-
-  
-
-  <!-- It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-
-  Copyright - Suite -->
-
-  <div class="section-2">
-    <div class="section-2__quote">
-     
-      <img src="./assets/pattern-blur.svg" class="pattern-blur" alt="">
-      <img src="./assets/image-jeremy-large.png" class=" jeremy-image jeremy-image-m" alt=""> 
-     
-       <blockquote>
-        <div class="quotes">
-          <img src="./assets/pattern-curved-line-2.svg" alt="" class="pattern-curved-line-2">
-          <h2 class="second-section-h2">It just works.</h2>
-          <p>&ldquo;I really like how it is an all-in-one solution that handle many of 
-            the tasks that you would normally need separate tools to do the same 
-            job. This thing is a miracle worker.&rdquo;</p>
-            <figcaption>&mdash;Jeremy Robinson<br>
-              <cite>
-                CMO, Fylo
-              </cite>
-            </figcaption>
-        </div>
-      </blockquote>
     </div>
-  </div>
+  </section>
 
-<section class="footer">
-<footer>
-<img src="./assets/logo.svg" class="footer-logo" alt="LOGO">
-<p class="copy-right">Copyright - Suite</p> 
-<ul>
-<li>
-<img src="./assets/icon-facebook.svg" alt="">
-</li>
-<li>
-<img src="./assets/icon-instagram.svg" alt="">
-</li>
-<li>
-<img src="./assets/icon-twitter.svg" alt="">
-</li>
-</ul>
-</footer>
-</section>
-<div class="footer-background"></div>
+  <section>
+    <div class="section-2-container">
+      <div class="section-2-jeremy">
+        <div class="section-2-jeremy--blur">
+          <img src="./assets/pattern-blur.svg" class="pattern-blur" alt="">
+        </div>
+        <div class="section-2-jeremy--image">
+            <img src="./assets/image-jeremy.png" alt="">
+                  <!-- <img src="./assets/image-jeremy-large@2x.png" class=" jeremy-image jeremy-image-l" alt=""> -->
+           <img src="./assets/image-jeremy-large.png" class=" jeremy-image jeremy-image-m" alt="">
+          <!-- <img src="./assets/image-jeremy-small.png" class=" jeremy-image jeremy-image-s" alt=""> -->
+        </div>
+      </div>
 
+      <div class="section-2-arc">
+        <img src="./assets/pattern-curved-line-2.svg" />
+      </div>
 
+      <div class="section-2-quote">
+        <h2 class="second-section-h2">It just <span class="works">works.</span></h2>
+        <p>&ldquo;I really like how it is an all-in-one solution that handle many of
+          the tasks that you would normally need separate tools to do the same
+          job. This thing is a miracle worker.&rdquo;</p>
+        <figcaption>Jeremy Robinson<br>
+          <p>
+            CMO, Fylo
+          </p>
+        </figcaption>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="footer-section">
+      <footer>
+        <img src="./assets/logo.svg" class="footer-logo" alt="LOGO">
+        <p class="copy-right">Copyright - Suite</p>
+        <ul>
+          <li>
+            <img src="./assets/icon-facebook.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/icon-instagram.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/icon-twitter.svg" alt="">
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </section>
+  
 </body>
+
 </html>
