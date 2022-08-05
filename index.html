@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
@@ -16,73 +16,72 @@
 
 <body>
 
-  <nav>
-    <div class="nav-logo"><img src="./assets/logo.svg" /></div>
-    <button class="btn nav-btn">Request Beta Access</button>
-  </nav>
+  <header class="container">
+    <nav>
+      <div class="nav-logo"><img src="./assets/logo.svg" /></div>
+      <a class="btn nav-btn">Request Beta Access</a>
+    </nav>
+  </header>
 
-  <section>
-    <div class="section-1-container">
+  <main>
+      <section>
+        <div class="section-1-container container">
+          <div class="section-1-1">
+            <div class="text">
+              <h1 class="heading-900">A <strong>super solution</strong><br> for your <strong>business.</strong></h1>
+              <p>
+                Our marketing and sales automations help you scale your outreach to
+                get more leads for your company.
+              </p>
+      
+              <button class="btn request-beta-access--btn">Request Beta Access</button>
+            </div>
 
-      <div class="section-1-1">
-          <div class="text">
-            <div class="arc"><img src="./assets/pattern-curved-line-1.svg" /></div>
-            <h1>A <span class="super-solution">super solution</span><br> for your <span class="super-solution">business.</span></h1>
-            <p>
-              Our marketing and sales automations help you scale your outreach to
-              get more leads for your company.
-            </p>
-    
-            <button class="btn request-beta-access--btn">Request Beta Access</button>
-          </div>
+            <div class="image">
+              <img src="./assets/image-hero-portrait@2x.png" alt="" class="phone-image phone-image-xl">
+              <img src="./assets/image-hero-portrait.png" alt="" class="phone-image phone-image-l">
+              <img src="./assets/image-hero-landscape@2x.png" alt="" class="phone-image phone-image-m">
+              <img src="./assets/image-hero-landscape.png" alt="" class="phone-image phone-image-s">
+            </div>
+        </div>
 
-          <div class="image">
-            <img src="./assets/image-hero-portrait@2x.png" alt="" class="phone-image phone-image-xl">
-            <img src="./assets/image-hero-portrait.png" alt="" class="phone-image phone-image-l">
-            <img src="./assets/image-hero-landscape@2x.png" alt="" class="phone-image phone-image-m">
-            <img src="./assets/image-hero-landscape.png" alt="" class="phone-image phone-image-s">
-          </div>
-
-      </div>
-
-      <div class="section-1-2">
-        <ul>
-          <li>
-            <p>
-              <h3>2K+</h3>
-              <p>Companies</p>
-            </p>
-          </li>
-    
-          <li>
-            <h3>8</h3>
-            <p>Languages</p>
-          </li>
-    
-    
-          <li>
-            <h3>1.2M</h3>
-            <p>Leads</p>
-          </li>
-    
-        </ul>
-      </div>
-
+        <div class="section-1-2">
+          <ul>
+            <li>
+                <h3>2K+</h3>
+                <p>Companies</p>
+            </li>
+      
+            <li>
+              <h3>8</h3>
+              <p>Languages</p>
+            </li>
+      
+      
+            <li>
+              <h3>1.2M</h3>
+              <p>Leads</p>
+            </li>
+      
+          </ul>
+        </div>
     </div>
   </section>
 
   <section>
     <div class="section-2-container">
       <div class="section-2-jeremy">
-        <div class="section-2-jeremy--blur">
+        <!-- <div class="section-2-jeremy--blur">
           <img src="./assets/pattern-blur.svg" class="pattern-blur" alt="">
-        </div>
-        <div class="section-2-jeremy--image">
-            <img src="./assets/image-jeremy.png" alt="">
+        </div> -->
+        <img src="./assets/image-jeremy-small.png" class="jeremy-image jeremy-image-s" alt="">
+         <img src="./assets/image-jeremy-large@2x.png" class=" jeremy-image jeremy-image-l" alt="">
+
+        <!-- <div class="section-2-jeremy--image"> -->
+            <!-- <img src="/assets/image-jeremy.png" alt=""> -->
                   <!-- <img src="./assets/image-jeremy-large@2x.png" class=" jeremy-image jeremy-image-l" alt=""> -->
-           <img src="./assets/image-jeremy-large.png" class=" jeremy-image jeremy-image-m" alt="">
-          <!-- <img src="./assets/image-jeremy-small.png" class=" jeremy-image jeremy-image-s" alt=""> -->
-        </div>
+           <!-- <img src="./assets/image-jeremy-large.png" class=" jeremy-image jeremy-image-m" alt=""> -->
+        <!-- </div> -->
       </div>
 
       <div class="section-2-arc">
@@ -103,8 +102,10 @@
 
     </div>
   </section>
+</main>
 
-  <section>
+
+  <!-- <section>
     <div class="footer-section">
       <footer>
         <img src="./assets/logo.svg" class="footer-logo" alt="LOGO">
@@ -122,8 +123,33 @@
         </ul>
       </footer>
     </div>
-  </section>
-  
-</body>
+  </section> -->
 
+  <footer>
+    <div class="footer-container">   
+       <a>
+      <img src="./assets/logo.svg" class="footer-logo" alt="LOGO">
+    </a>
+    <p class="copy-right">Copyright - Suite</p>
+    <ul class="media">
+      <li>
+        <a class="social-media">
+          <img src="./assets/icon-facebook.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="social-media">
+          <img src="./assets/icon-instagram.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="social-media">
+          <img src="./assets/icon-twitter.svg" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  </footer>
+</body>
 </html>
