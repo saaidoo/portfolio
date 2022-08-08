@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
@@ -16,140 +16,293 @@
 
 <body>
 
-  <header class="container">
-    <nav>
-      <div class="nav-logo"><img src="./assets/logo.svg" /></div>
-      <a class="btn nav-btn">Request Beta Access</a>
-    </nav>
-  </header>
+  <header>
+    <div class="container nav-container">
+      <a href="#"><img src="assets/logo.svg" alt="logo"></a>
+      <a href="#" class="btn nav-btn">Request Beta Access</a>
+    </div>
+  </header>  
 
   <main>
-      <section>
-        <div class="section-1-container container">
-          <div class="section-1-1">
-            <div class="text">
-              <h1 class="heading-900">A <strong>super solution</strong><br> for your <strong>business.</strong></h1>
-              <p>
-                Our marketing and sales automations help you scale your outreach to
-                get more leads for your company.
-              </p>
-      
-              <button class="btn request-beta-access--btn">Request Beta Access</button>
-            </div>
 
-            <div class="image">
-              <img src="./assets/image-hero-portrait@2x.png" alt="" class="phone-image phone-image-xl">
-              <img src="./assets/image-hero-portrait.png" alt="" class="phone-image phone-image-l">
-              <img src="./assets/image-hero-landscape@2x.png" alt="" class="phone-image phone-image-m">
-              <img src="./assets/image-hero-landscape.png" alt="" class="phone-image phone-image-s">
-            </div>
-        </div>
-
-        <div class="section-1-2">
-          <ul>
-            <li>
-                <h3>2K+</h3>
-                <p>Companies</p>
-            </li>
-      
-            <li>
-              <h3>8</h3>
-              <p>Languages</p>
-            </li>
-      
-      
-            <li>
-              <h3>1.2M</h3>
-              <p>Leads</p>
-            </li>
-      
-          </ul>
-        </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="section-2-container">
-      <div class="section-2-jeremy">
-        <!-- <div class="section-2-jeremy--blur">
-          <img src="./assets/pattern-blur.svg" class="pattern-blur" alt="">
-        </div> -->
-        <img src="./assets/image-jeremy-small.png" class="jeremy-image jeremy-image-s" alt="">
-         <img src="./assets/image-jeremy-large@2x.png" class=" jeremy-image jeremy-image-l" alt="">
-
-        <!-- <div class="section-2-jeremy--image"> -->
-            <!-- <img src="/assets/image-jeremy.png" alt=""> -->
-                  <!-- <img src="./assets/image-jeremy-large@2x.png" class=" jeremy-image jeremy-image-l" alt=""> -->
-           <!-- <img src="./assets/image-jeremy-large.png" class=" jeremy-image jeremy-image-m" alt=""> -->
-        <!-- </div> -->
+    <div class="mobile">
+    <section class="container super-solution mobile">
+      <div class="super-solution-curve">
+        <img src="assets/pattern-curved-line-1.svg" alt="">
+      </div>
+      <div class="super-solution-heading">
+        A <span>super solution</span> for your <span>business.</span>
       </div>
 
-      <div class="section-2-arc">
-        <img src="./assets/pattern-curved-line-2.svg" />
+      <div class="super-solution-text">
+        Our marketing and sales automations help you scale your outreach to get more leads
+        for your company.
       </div>
 
-      <div class="section-2-quote">
-        <h2 class="second-section-h2">It just <span class="works">works.</span></h2>
-        <p>&ldquo;I really like how it is an all-in-one solution that handle many of
-          the tasks that you would normally need separate tools to do the same
-          job. This thing is a miracle worker.&rdquo;</p>
-        <figcaption>Jeremy Robinson<br>
-          <p>
-            CMO, Fylo
-          </p>
-        </figcaption>
+      <a class="btn super-solution-btn" href="#">Request Beta Access</a>
+    </section>
+
+    <section class="container image-hero ">
+      <img class="image-hero-s" src="assets/image-hero-landscape.png" alt="hero-image">
+      <img class="image-hero-l" src="assets/image-hero-landscape@2x.png" alt="image-hero">
+    </section>
+
+    <section class="container stats">
+
+      <div class="stats-data">
+        <p class="stats-heading">2K+</p>
+        <p class="stats-text">companies</p>
       </div>
 
-    </div>
-  </section>
-</main>
+      <div class="stats-data">
+        <p class="stats-heading lang">8</p>
+        <p class="stats-text">languages</p>
+      </div>
 
-
-  <!-- <section>
-    <div class="footer-section">
-      <footer>
-        <img src="./assets/logo.svg" class="footer-logo" alt="LOGO">
-        <p class="copy-right">Copyright - Suite</p>
-        <ul>
-          <li>
-            <img src="./assets/icon-facebook.svg" alt="">
-          </li>
-          <li>
-            <img src="./assets/icon-instagram.svg" alt="">
-          </li>
-          <li>
-            <img src="./assets/icon-twitter.svg" alt="">
-          </li>
-        </ul>
-      </footer>
-    </div>
-  </section> -->
-
-  <footer>
-    <div class="footer-container">   
-       <a>
-      <img src="./assets/logo.svg" class="footer-logo" alt="LOGO">
-    </a>
-    <p class="copy-right">Copyright - Suite</p>
-    <ul class="media">
-      <li>
-        <a class="social-media">
-          <img src="./assets/icon-facebook.svg" alt="">
-        </a>
-      </li>
-      <li>
-        <a class="social-media">
-          <img src="./assets/icon-instagram.svg" alt="">
-        </a>
-      </li>
-      <li>
-        <a class="social-media">
-          <img src="./assets/icon-twitter.svg" alt="">
-        </a>
-      </li>
-    </ul>
+      <div class="stats-data">
+        <p class="stats-heading leads">1.2M</p>
+        <p class="stats-text">leads</p>
+      </div>
+    
+    </section>
   </div>
 
+
+  <div class="tb dk-tablet container">
+      <section class="tb-super-solution-container" >
+        <div class="tb-super-solution">
+          <div class="tb-super-solution-curve">
+            <img src="assets/pattern-curved-line-1.svg" alt="">
+          </div>
+          <div class="tb-super-solution-heading">
+            A <span>super solution</span> for your <span>business.</span>
+          </div>
+
+          <div class="tb-super-solution-text">
+            Our marketing and sales automations help you scale your outreach to get more leads
+            for your company.
+          </div>
+
+          <a class="btn super-solution-btn" href="#">Request Beta Access</a>
+       </div>
+       <div class="tb-hero-image">
+          <img src="assets/image-hero-portrait@2x.png" alt="">
+       </div>
+      </section>
+
+      <section class="container tb-stats">
+        <div class="stats-data">
+          <p class="stats-heading">2K+</p>
+          <p class="stats-text">companies</p>
+        </div>
+  
+        <div class="stats-data">
+          <p class="stats-heading lang">8</p>
+          <p class="stats-text">languages</p>
+        </div>
+  
+        <div class="stats-data">
+          <p class="stats-heading leads">1.2M</p>
+          <p class="stats-text">leads</p>
+        </div>
+      
+      </section>
+
+  </div>
+
+
+  <!-- <div class="desktop">
+      
+    <section class="container dk-super-solution-container" >
+      <div class="dk-super-solution">
+        <div class="dk-super-solution-curve">
+          <img src="assets/pattern-curved-line-1.svg" alt="">
+        </div>
+        <div class="dk-super-solution-heading">
+          A <span>super solution</span> for your <span>business.</span>
+        </div>
+
+        <div class="dk-super-solution-text">
+          Our marketing and sales automations help you scale your outreach to get more leads
+          for your company.
+        </div>
+
+        <a class="btn super-solution-btn" href="#">Request Beta Access</a>
+     </div>
+    
+    </section>
+
+    <div class="dk-hero-image">
+      <img src="assets/image-hero-portrait@2x.png" alt="">
+   </div> -->
+
+    <!-- <section class="container tb-stats">
+      <div class="stats-data">
+        <p class="stats-heading">2K+</p>
+        <p class="stats-text">companies</p>
+      </div>
+
+      <div class="stats-data">
+        <p class="stats-heading lang">8</p>
+        <p class="stats-text">languages</p>
+      </div>
+
+      <div class="stats-data">
+        <p class="stats-heading leads">1.2M</p>
+        <p class="stats-text">leads</p>
+      </div>
+    
+    </section> -->
+
+  </div>
+
+  <div class="mobile">
+    <section class="testimonial">
+      <div class="pull-up">
+      <div class="jeremy-container">
+        <!-- <div class="blurred">
+          <img src="assets/pattern-blur.svg" alt="">
+        </div> -->
+
+        <div class="jeremy">
+          <img src="assets/image-jeremy-small.png" alt="jeremy">
+        </div>
+
+      </div>
+
+      <div class="curve-2">
+        <img src="assets/pattern-curved-line-2.svg" alt="">
+      </div>
+
+      <div class="testimonial-heading">
+        It just <span>works.</span>
+      </div>
+
+      <div class="container testimonial-text">
+        “I really like how it is an all-in-one solution that handle many of
+        the tasks that you would normally need separate tools to do the same
+        job. This thing is a miracle worker.”
+      </div>
+
+      <div class="cmo">
+        <p class="cmo-name">Jeremy Robinson</p>
+        <p class="cmo-branch">CMO, Fylo</p>
+      </div>
+    </div>
+
+    </section>
+  </div>
+
+  <div class="tb tb-footer">
+    <div class="container">
+      <section class="testimonial">
+        <div class="pull-up">
+        <div class="jeremy-container">
+          <!-- <div class="blurred">
+            <img src="assets/pattern-blur.svg" alt="">
+          </div> -->
+  
+          <div class="jeremy">
+            <img src="assets/image-jeremy-small.png" alt="jeremy">
+          </div>
+  
+        </div>
+  
+        <div class="curve-2">
+          <img src="assets/pattern-curved-line-2.svg" alt="">
+        </div>
+  
+        <div class="testimonial-heading">
+          It just <span>works.</span>
+        </div>
+  
+        <div class="container testimonial-text">
+          “I really like how it is an all-in-one solution that handle many of
+          the tasks that you would normally need separate tools to do the same
+          job. This thing is a miracle worker.”
+        </div>
+  
+        <div class="cmo">
+          <p class="cmo-name">Jeremy Robinson</p>
+          <p class="cmo-branch">CMO, Fylo</p>
+        </div>
+      </div>
+  
+      </section>
+    </div>
+
+  </div>
+
+  <div class="dk-footer container">
+    <section class="dk-testimonial">
+      <div class="dk-pull-up">
+      <div class="dk-jeremy-container">
+        <!-- <div class="blurred">
+          <img src="assets/pattern-blur.svg" alt="">
+        </div> -->
+
+        <div class="dk-jeremy">
+          <img src="assets/image-jeremy-large.png" alt="jeremy">
+        </div>
+
+      </div>
+
+      <div class="dk-curve-2">
+        <img src="assets/pattern-curved-line-2.svg" alt="">
+      </div>
+
+      <div class="dk-testimonial-content">
+        <div class="dk-testimonial-heading">
+          It just <span>works.</span>
+        </div>
+
+        <div class="container dk-testimonial-text">
+          “I really like how it is an all-in-one solution that handle many of
+          the tasks that you would normally need separate tools to do the same
+          job. This thing is a miracle worker.”
+        </div>
+
+        <div class="dk-cmo">
+          <p class="dk-cmo-name">Jeremy Robinson</p>
+          <p class="dk-cmo-branch">CMO, Fylo</p>
+        </div>
+    </div>
+   </div>
+
+    </section>
+  </div>
+
+  </main>
+
+  <footer>
+    <div class="mobile">
+    <div class="footer-container">
+      <a href="#"><img src="assets/logo.svg" ></a>
+      <p class="copyright">Copyright - Suite</p>
+      <div class="social-links">
+        <a href="#"><img src="assets/icon-facebook.svg" alt=""></a>
+        <a href="#"><img src="assets/icon-twitter.svg" alt=""></a>
+        <a href="#"><img src="assets/icon-instagram.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+   <div class="tb">
+      <div class="">
+        <div class="tb-footer-container container">
+          <a href="#"><img src="assets/logo.svg" ></a>
+          <p class="copyright">Copyright - Suite</p>
+          <div class="social-links">
+            <a href="#"><img src="assets/icon-facebook.svg" alt=""></a>
+            <a href="#"><img src="assets/icon-twitter.svg" alt=""></a>
+            <a href="#"><img src="assets/icon-instagram.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+   </div>
+
   </footer>
+
 </body>
+
 </html>
