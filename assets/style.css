@@ -518,13 +518,12 @@ footer{
 
     .tb-hero-image >img{
         width: 100%;
-        height: 800px;
+        height: 600px;
         object-fit: cover;
     }
 
     .tb-super-solution{
         /* justify-self: flex-end; */
-        flex-grow: 10;
         width: 1000px;
     }
 
