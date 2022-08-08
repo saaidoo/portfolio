@@ -489,13 +489,13 @@ footer{
 
 }
 
-@media (max-width: 1443px){
+@media (max-width: 1023px){
   
     .dk-footer {
         display: none;
     }
 }
-@media (min-width: 1444px){
+@media (min-width: 1024px){
 
     body{
         font-family: var(--ff-primary);
