@@ -214,7 +214,7 @@ select {
 }
 
 .super-solution-btn:hover{
-    background-color: var(--btn-hover);
+    background: var(--btn-hover);
     color: var(--cream-white);
 }
 
