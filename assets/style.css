@@ -616,7 +616,7 @@ footer{
         content: "";
         position: absolute;
         inset: 0;
-        background-image: url('../pattern-blur.svg');
+        background-image: url('portfolio/pattern-blur.svg');
         background-repeat: no-repeat;
         background-position: right 80% top 20%;
         z-index: -1;
