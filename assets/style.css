@@ -257,7 +257,7 @@ select {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('./pattern-blur.svg');
+    background-image: url('portfolio/pattern-blur.svg');
     background-repeat: no-repeat;
     background-position: center top -5%;
     z-index: -1;
