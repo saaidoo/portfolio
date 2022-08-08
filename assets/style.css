@@ -503,7 +503,7 @@ footer{
     .container{
         /* margin: 0 50px; */
         width: 75%;
-        margin: auto;
+        margin: 0 auto;
     }
     .nav-container{
         margin-bottom: 80px;
@@ -511,9 +511,8 @@ footer{
     }
     .dk-tablet{
         display: flex;
-        /* grid-template-columns: minmax(min-content, 1500px) minmax(min-content, 1500px) minmax(min-content, 1500px); */
         margin-bottom: 100px;
-        gap:40px;
+        gap:20px;
     }
 
     .tb-hero-image >img{
