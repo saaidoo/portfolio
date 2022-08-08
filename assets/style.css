@@ -214,7 +214,7 @@ select {
 }
 
 .super-solution-btn:hover{
-    background: var(--btn-hover);
+    background: linear-gradient(135deg, rgb(160,96,255) 0%, magenta 49%, orange 100%);;
     color: var(--cream-white);
 }
 
