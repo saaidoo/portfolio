@@ -517,7 +517,7 @@ footer{
 
     .tb-hero-image >img{
         width: 100%;
-        height: 600px;
+        height: 750px;
         object-fit: cover;
     }
 
@@ -616,7 +616,7 @@ footer{
         inset: 0;
         background-image: url('pattern-blur.svg');
         background-repeat: no-repeat;
-        background-position: right 80% top 20%;
+        background-position: right 90% top 20%;
         z-index: -1;
       }
     /* .tablet{
