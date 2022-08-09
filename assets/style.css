@@ -510,21 +510,48 @@ footer{
         margin-top: 40px;
     }
     .dk-tablet{
-        display: flex;
-        margin-bottom: 100px;
-        gap:20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* column-gap: 40px; */
+        margin-bottom: 10.375rem;
+        /* gap:40px; */
+    }
+
+
+
+    .tb-hero-image{
+        /* background-color: red; */
+        width: 28.875rem;
+        height: 37.5rem;
+        justify-self: flex-end;
+        transform: translateX(-10rem);
+        /* margin-left: 100px; */
+    }
+
+    @supports (-moz-appearance:none) {
+        .tb-hero-image{
+            /* background-color: red; */
+            width: 28.875rem;
+            height: 37.5rem;
+            justify-self: flex-end;
+            transform: translateX(-0.5rem);
+            /* margin-left: 100px; */
+        }
+    
     }
 
     .tb-hero-image >img{
         width: 100%;
-        height: 700px;
+        height: 39.5rem;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 1.25rem;
     }
 
     .tb-super-solution{
         /* justify-self: flex-end; */
-        width: 1000px;
+        width: 39.688rem;
+        height: 25.313rem;    
+        /* background-color: red;     */
     }
 
     .tb-stats{
@@ -533,6 +560,33 @@ footer{
         gap: 50px;
         margin-top: 150px;
         /* margin-bottom: 40px; */
+        justify-self: flex-end;
+        /* grid-row: 1;
+        grid-column: 1/span 4; */
+    }
+
+
+    @supports (-moz-appearance:none) {
+        .tb-stats{
+            display: flex;
+            flex-direction: column;
+            /* gap: 70px; */
+            margin-top: 150px;
+            /* margin-bottom: 40px; */
+            justify-self: flex-end;
+            /* grid-row: 1;
+            grid-column: 1/span 4; */
+            margin-left: 5.2rem;
+
+        }
+    
+    }
+
+    .tb-super-solution-curve{
+        margin-left: 48%;
+        width: 17.938rem;
+        height: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     .tb-super-solution-heading{
